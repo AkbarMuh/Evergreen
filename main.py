@@ -162,8 +162,15 @@ elif data_option == "Chatbot Pertanian":
         st.session_state.messages.append({"role": "user", "parts": [prompt]})
         chat_session.history.append({"role": "user", "parts": [prompt]})
 
-        last_data_condition = 7
+        last_data_condition = 1
+        try :
+            last_data_condition=os.getenv("last_data_condition")
+        except:
+            last_data_condition = 7
 
+        last_data_condition = int(last_data_condition)
+        print(last_data_condition)
+        print(type(last_data_condition))
         # Include latest data in the response context
         recent_conditions = conditions_df.iloc[-last_data_condition:].to_dict(orient="records")
         recent_forecasts = forecast_df.iloc[-last_data_condition:].to_dict(orient="records")
