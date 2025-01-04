@@ -162,20 +162,22 @@ elif data_option == "Chatbot Pertanian":
         st.session_state.messages.append({"role": "user", "parts": [prompt]})
         chat_session.history.append({"role": "user", "parts": [prompt]})
 
-        # Extract relevant data for chatbot response
-        recent_condition = conditions_df.iloc[-1].to_dict()
-        recent_forecast = forecast_df.iloc[-1].to_dict()
-        recent_prediction = predictions_df.iloc[-1].to_dict()
-
         # Include latest data in the response context
-        context = (
-            f"Kondisi terbaru:\n"
-            f"- Suhu: {recent_condition['Suhu (°C)']} °C\n"
-            f"- Kelembaban: {recent_condition['Kelembaban (%)']} %\n"
-            f"- pH Tanah: {recent_condition['pH Tanah']}\n"
-            f"- Cuaca: {recent_forecast['Kondisi_cuaca']}\n"
-            f"- Prediksi Penyakit: {recent_prediction['Prediksi_Penyakit']}\n"
-        )
+        recent_conditions = conditions_df.iloc[-10:].to_dict(orient="records")
+        recent_forecasts = forecast_df.iloc[-10:].to_dict(orient="records")
+        recent_predictions = predictions_df.iloc[-10:].to_dict(orient="records")
+
+        context = "Kondisi terbaru (10 data terakhir):\n"
+        for i in range(10):
+            context += (
+                f"Data {i + 1}:\n"
+                f"- Suhu: {recent_conditions[i]['Suhu (°C)']} °C\n"
+                f"- Kelembaban: {recent_conditions[i]['Kelembaban (%)']} %\n"
+                f"- pH Tanah: {recent_conditions[i]['pH Tanah']}\n"
+                f"- Cuaca: {recent_forecasts[i]['Kondisi_cuaca']}\n"
+                f"- Prediksi Penyakit: {recent_predictions[i]['Prediksi_Penyakit']}\n\n"
+            )
+
         chat_session.history.append({"role": "model", "parts": [context]})
         pertanyaan = "Context :" + context +"\nPertanyaan : "+ prompt
         print(pertanyaan)
