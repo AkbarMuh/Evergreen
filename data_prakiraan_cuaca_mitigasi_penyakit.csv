@@ -1,0 +1,50 @@
+waktu,suhu (°C),kelembaban (%),Kondisi_cuaca,kecepatan_angin (km/jam),arah_angin,Mitigasi Penyakit,status
+2024-11-06 00:00:00,29.10 °C,73.24 %,Hujan sedang,11.25 km/jam,Barat,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 00:30:00,30.46 °C,74.19 %,Badai,9.61 km/jam,Selatan,"Mitigasi: Kerusakan fisik pada tanaman, Penyakit karena kerusakan struktur tanaman",Prakiraan
+2024-11-06 01:00:00,28.51 °C,73.77 %,Hujan lebat,11.41 km/jam,Barat,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 01:30:00,28.16 °C,73.90 %,Cerah,8.57 km/jam,Barat,Normal,Prakiraan
+2024-11-06 02:00:00,30.36 °C,74.07 %,Berawan,11.73 km/jam,Timur,Normal,Prakiraan
+2024-11-06 02:30:00,30.34 °C,74.54 %,Badai,9.04 km/jam,Timur,"Mitigasi: Kerusakan fisik pada tanaman, Penyakit karena kerusakan struktur tanaman",Prakiraan
+2024-11-06 03:00:00,28.27 °C,73.02 %,Hujan sedang,9.27 km/jam,Selatan,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 03:30:00,28.80 °C,76.78 %,Hujan lebat,8.53 km/jam,Barat,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 04:00:00,28.38 °C,74.85 %,Hujan ringan,11.61 km/jam,Barat,Normal,Prakiraan
+2024-11-06 04:30:00,28.94 °C,74.35 %,Hujan lebat,9.34 km/jam,Selatan,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 05:00:00,29.68 °C,74.38 %,Berawan,10.57 km/jam,Timur,Normal,Prakiraan
+2024-11-06 05:30:00,29.42 °C,73.08 %,Hujan ringan,10.94 km/jam,Utara,Normal,Prakiraan
+2024-11-06 06:00:00,30.35 °C,74.79 %,Berawan,9.29 km/jam,Timur,Normal,Prakiraan
+2024-11-06 06:30:00,28.15 °C,75.07 %,Badai,9.85 km/jam,Selatan,"Mitigasi: Kerusakan fisik pada tanaman, Penyakit karena kerusakan struktur tanaman",Prakiraan
+2024-11-06 07:00:00,30.61 °C,76.38 %,Berawan,9.04 km/jam,Barat,Normal,Prakiraan
+2024-11-06 07:30:00,28.50 °C,73.96 %,Cerah,11.71 km/jam,Barat,Normal,Prakiraan
+2024-11-06 08:00:00,30.97 °C,75.28 %,Berawan,8.26 km/jam,Timur,Normal,Prakiraan
+2024-11-06 08:30:00,29.02 °C,76.62 %,Hujan sedang,10.79 km/jam,Utara,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 09:00:00,29.77 °C,76.72 %,Cerah,10.34 km/jam,Selatan,Normal,Prakiraan
+2024-11-06 09:30:00,28.45 °C,76.11 %,Cerah,11.31 km/jam,Barat,Normal,Prakiraan
+2024-11-06 10:00:00,29.33 °C,73.51 %,Hujan ringan,8.71 km/jam,Barat,Normal,Prakiraan
+2024-11-06 10:30:00,31.77 °C,76.69 %,Badai,11.95 km/jam,Timur,"Mitigasi: Kerusakan fisik pada tanaman, Penyakit karena kerusakan struktur tanaman",Prakiraan
+2024-11-06 11:00:00,30.60 °C,76.81 %,Berawan,9.34 km/jam,Timur,Normal,Prakiraan
+2024-11-06 11:30:00,29.62 °C,75.06 %,Hujan sedang,10.23 km/jam,Utara,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 12:00:00,29.64 °C,73.63 %,Cerah,11.47 km/jam,Selatan,Normal,Prakiraan
+2024-11-06 12:30:00,31.52 °C,74.95 %,Berawan,10.78 km/jam,Timur,Normal,Prakiraan
+2024-11-06 13:00:00,29.73 °C,75.47 %,Hujan lebat,11.57 km/jam,Selatan,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 13:30:00,28.84 °C,76.25 %,Berawan,9.86 km/jam,Barat,Normal,Prakiraan
+2024-11-06 14:00:00,29.12 °C,76.92 %,Cerah,8.81 km/jam,Barat,Normal,Prakiraan
+2024-11-06 14:30:00,29.49 °C,74.85 %,Badai,9.78 km/jam,Timur,"Mitigasi: Kerusakan fisik pada tanaman, Penyakit karena kerusakan struktur tanaman",Prakiraan
+2024-11-06 15:00:00,29.02 °C,74.78 %,Hujan sedang,11.05 km/jam,Selatan,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 15:30:00,28.89 °C,73.68 %,Hujan ringan,10.29 km/jam,Selatan,Normal,Prakiraan
+2024-11-06 16:00:00,30.70 °C,75.78 %,Berawan,10.21 km/jam,Utara,Normal,Prakiraan
+2024-11-06 16:30:00,31.40 °C,74.20 %,Cerah,11.12 km/jam,Selatan,Normal,Prakiraan
+2024-11-06 17:00:00,31.07 °C,73.84 %,Hujan ringan,11.89 km/jam,Barat,Normal,Prakiraan
+2024-11-06 17:30:00,31.75 °C,73.21 %,Berawan,11.92 km/jam,Utara,Normal,Prakiraan
+2024-11-06 18:00:00,30.41 °C,74.71 %,Cerah,8.46 km/jam,Utara,Normal,Prakiraan
+2024-11-06 18:30:00,30.61 °C,75.93 %,Hujan lebat,11.16 km/jam,Timur,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 19:00:00,31.88 °C,75.91 %,Berawan,10.84 km/jam,Timur,Normal,Prakiraan
+2024-11-06 19:30:00,31.30 °C,74.90 %,Hujan lebat,11.92 km/jam,Utara,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 20:00:00,31.09 °C,74.82 %,Hujan ringan,9.42 km/jam,Timur,Normal,Prakiraan
+2024-11-06 20:30:00,30.94 °C,73.09 %,Hujan ringan,10.45 km/jam,Timur,Normal,Prakiraan
+2024-11-06 21:00:00,31.33 °C,73.48 %,Badai,8.25 km/jam,Barat,"Mitigasi: Kerusakan fisik pada tanaman, Penyakit karena kerusakan struktur tanaman",Prakiraan
+2024-11-06 21:30:00,30.12 °C,73.84 %,Hujan ringan,11.63 km/jam,Utara,Normal,Prakiraan
+2024-11-06 22:00:00,31.58 °C,74.27 %,Hujan ringan,9.88 km/jam,Timur,Normal,Prakiraan
+2024-11-06 22:30:00,28.40 °C,74.47 %,Hujan sedang,8.74 km/jam,Utara,"Mitigasi: Penyakit jamur pada akar (Root rot), Bakteri yang berkembang cepat (Bacterial spot)",Prakiraan
+2024-11-06 23:00:00,28.81 °C,73.10 %,Berawan,11.19 km/jam,Barat,Normal,Prakiraan
+2024-11-06 23:30:00,30.74 °C,73.90 %,Cerah,10.67 km/jam,Timur,Normal,Prakiraan
+2024-11-07 00:00:00,29.15 °C,75.48 %,Cerah,11.38 km/jam,Utara,Normal,Prakiraan
