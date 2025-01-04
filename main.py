@@ -162,13 +162,15 @@ elif data_option == "Chatbot Pertanian":
         st.session_state.messages.append({"role": "user", "parts": [prompt]})
         chat_session.history.append({"role": "user", "parts": [prompt]})
 
+        last_data_condition = 10
+
         # Include latest data in the response context
-        recent_conditions = conditions_df.iloc[-10:].to_dict(orient="records")
-        recent_forecasts = forecast_df.iloc[-10:].to_dict(orient="records")
-        recent_predictions = predictions_df.iloc[-10:].to_dict(orient="records")
+        recent_conditions = conditions_df.iloc[-last_data_condition:].to_dict(orient="records")
+        recent_forecasts = forecast_df.iloc[-last_data_condition:].to_dict(orient="records")
+        recent_predictions = predictions_df.iloc[-last_data_condition:].to_dict(orient="records")
 
         context = "Kondisi terbaru (10 data terakhir):\n"
-        for i in range(10):
+        for i in range(last_data_condition):
             context += (
                 f"Data {i + 1}:\n"
                 f"- Suhu: {recent_conditions[i]['Suhu (°C)']} °C\n"
